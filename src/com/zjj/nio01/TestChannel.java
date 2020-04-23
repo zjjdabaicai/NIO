@@ -22,7 +22,7 @@ import java.util.SortedMap;
 
     二、通道的主要实现类
         java.nio.channel.Channel 接口：
-            |-- FileChannel             用于网络 IO
+            |-- FileChannel             用于网络 IO ,不能用于非阻塞式
             |-- SocketChannel           用于本地 TCP
             |-- ServerSocketChannel     用于本地 TCP
             |-- DatagramChannel         用于本地 UDP
